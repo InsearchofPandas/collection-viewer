@@ -5,7 +5,12 @@
   "dependencies": {
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
-    "react-scripts": "2.1.5"
+    "react-native-pose": "^0.9.0",
+    "react-onscroll": "^1.0.4",
+    "react-pose": "^4.0.8",
+    "react-scripts": "^2.1.8",
+    "react-scroll": "^1.7.11",
+    "window-resize-listener-react": "^1.1.0"
   },
   "scripts": {
     "start": "react-scripts start",

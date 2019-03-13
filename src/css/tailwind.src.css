@@ -45,6 +45,15 @@
  * @import "tailwindcss/utilities";
  */
 @tailwind utilities;
+.cls-1 {
+  fill: none;
+  stroke-width: 59.26px;
+
+}
+
+.cls-1, .cls-2 {
+  stroke: #000;
+}
 
 /**
  * Here you would add any custom utilities you need that don't come out of the

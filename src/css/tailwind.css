@@ -6139,6 +6139,10 @@ table {
   width: 16rem;
 }
 
+.w-93 {
+  width: 93%;
+}
+
 .w-auto {
   width: auto;
 }
@@ -6225,6 +6229,16 @@ table {
 
 .z-auto {
   z-index: auto;
+}
+
+.cls-1 {
+  fill: none;
+  stroke-width: 59.26px;
+}
+
+.cls-1,
+.cls-2 {
+  stroke: #000;
 }
 
 /**
@@ -11787,6 +11801,10 @@ table {
 
   .sm\:w-64 {
     width: 16rem;
+  }
+
+  .sm\:w-93 {
+    width: 93%;
   }
 
   .sm\:w-auto {
@@ -17425,6 +17443,10 @@ table {
     width: 16rem;
   }
 
+  .md\:w-93 {
+    width: 93%;
+  }
+
   .md\:w-auto {
     width: auto;
   }
@@ -23061,6 +23083,10 @@ table {
     width: 16rem;
   }
 
+  .lg\:w-93 {
+    width: 93%;
+  }
+
   .lg\:w-auto {
     width: auto;
   }
@@ -28695,6 +28721,10 @@ table {
 
   .xl\:w-64 {
     width: 16rem;
+  }
+
+  .xl\:w-93 {
+    width: 93%;
   }
 
   .xl\:w-auto {
