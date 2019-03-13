@@ -7,7 +7,7 @@ render() {
 
   return (
 
-    <div className="sm:w-full md:w-2/5 lg:w-1/4 mx-3 z-0 ">
+    <div className="sm:w-full md:w-2/5 lg:w-1/4 mx-1 md:mx-3 z-0 ">
         {images.map(image =>
           <div key={image.id} className="relative">
             <img className="my-3 z-0"  src={image.image} alt={image.description}/>

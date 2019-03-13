@@ -222,7 +222,7 @@ class App extends Component {
       <ScrollEvent handleScrollCallback={this.handleScrollCallback}/>
       <ReactWindowResizeListener onResize={this.resizeHandler} />
       <div className=" pt-4">
-        <p className="text-center h-4 text-xs md:text-lg ">Unsplash Collection Viewer</p>
+        <p className="text-center h-4 text-xs md:text-lg md:mb-1">Unsplash Collection Viewer</p>
         <p className="py-1  md:py-3 text-center border-t-2 border-b-2  md:text-3xl ">
           {this.state.title}
         </p>
@@ -239,8 +239,8 @@ class App extends Component {
             <div className="w-16"></div>
 
             <div className="w-4/5 mx-1 h-10 z-30">
-              <div className=" relative flex w-full h-10 bg-grey-lightest  border-2 border-grey-darker px-1 rounded-lg ">
-                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 1300 1100" className="">
+              <div className=" relative flex w-full h-10 bg-grey-lightest  border-2 border-grey-darker px-1  rounded-lg ">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 1300 1100" className="mt-1">
                   <circle className="cls-1" cx="415" cy="417" r="386"/>
                   <path id="Rounded_Rectangle_1" data-name="Rounded Rectangle 1" d="M643.97,710.027l38.015-33.471c2.64-2.325,6.94-1.8,9.614,1.182l376,419.6c5,5.58,5.96,12.55,2.12,15.52l-55.27,42.7c-3.79,2.92-10.7.62-15.412-5.09L643.824,719.733C641.291,716.662,641.361,712.323,643.97,710.027Z"/>
                   <path id="Rounded_Rectangle_1_copy" data-name="Rounded Rectangle 1 copy" d="M706.573,811.752l69.883-59.927c2.889-2.477,7.778-1.718,10.932,1.715L1088.43,1081.2c5.09,5.54,6.1,12.49,2.23,15.48l-93.311,72.08c-3.766,2.91-10.605.58-15.248-5.17L706.682,822.618C703.787,819.034,703.744,814.178,706.573,811.752Z"/>
