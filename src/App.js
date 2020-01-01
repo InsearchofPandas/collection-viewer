@@ -14,7 +14,7 @@ class App extends Component {
       images: null,
       collection: 410546,
       title: "THE ROAD LESS TRAVELLED",
-      pageSize: 6,
+      pageSize: 30,
       pages: null,
       page: 1,
       collections: null,
@@ -222,7 +222,7 @@ class App extends Component {
       <ScrollEvent handleScrollCallback={this.handleScrollCallback}/>
       <ReactWindowResizeListener onResize={this.resizeHandler} />
       <div className=" pt-4">
-        <p className="text-center h-4 text-xs md:text-lg md:mb-1">Unsplash Collection Viewer</p>
+        <p className="text-center h-4 text-xs md:text-lg md:mb-4">Unsplash Collection Viewer</p>
         <p className="py-1  md:py-3 text-center border-t-2 border-b-2  md:text-3xl ">
           {this.state.title}
         </p>
@@ -262,6 +262,15 @@ class App extends Component {
         {imageColumns.map((col, i) => <ImageColumn className="z-0" key={i} images={col}/>)}
 
       </div>
+
+      <footer class="flex justify-center flex-col lg:flex-row w-full py-10 ">
+        <a href="https://kylehumphrey.com" target="_blank" rel="noopener noreferrer" className="text-black no-underline px-4">
+          Made by Kyle Humphrey
+        </a>
+        <a href="https://github.com/InsearchofPandas/collection-viewer" target="_blank" rel="noopener noreferrer" className="text-black no-underline px-4">
+          View Code on GitHub
+        </a>
+      </footer>
 
     </div>);
   }
